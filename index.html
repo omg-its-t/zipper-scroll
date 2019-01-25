@@ -1,25 +1,24 @@
 <!DOCTYPE html>
+<!--
+    using AOS library - http://michalsnik.github.io/aos/
+    https://github.com/michalsnik/aos
+-->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Zipper Scroll Site</title>
   </head>
-  <main class="one zip left">
-    main 1
-  </main>
-  <main class="two zip right">
-    main 2
-  </main>
-  <main class="three zip left">
-    main 3
-  </main>
-  <main class="four zip right">
-    main 4
-  </main>
-
+  <main class="one" data-aos="fade-down-right" data-aos-delay="50" data-aos-duration="1000">main 1</main>
+  <main class="two" data-aos="fade-down-left" data-aos-delay="50" data-aos-duration="1000">main 2</main>
+  <main class="three" data-aos="fade-down-right" data-aos-delay="50" data-aos-duration="1000">main 3</main>
+  <main class="four" data-aos="fade-down-left" data-aos-delay="50" data-aos-duration="1000">main 4</main>
   </body>
+
+  <script>AOS.init();</script>
 </html>
