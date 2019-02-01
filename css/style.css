@@ -2,6 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 header{
@@ -12,16 +18,29 @@ header{
   z-index: 99;
 }
 
+.hero-card{
+  background-color: red;
+  margin-top: 35vh;
+}
+
+.title{
+  padding: .5em;
+}
+
 nav ul{
   position: absolute;
   right: 0;
 }
 
 nav li{
-  list-style: none;
   display: inline-block;
   padding: 1em;
   text-align: right;
+}
+
+nav li a{
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 main{
@@ -31,6 +50,14 @@ main{
 
 main.one{
   background: #6ab04c;
+  text-align: center;
+}
+
+.one > p{
+  font-size: 2.5em;
+}
+.primary{
+  padding-top: 35vh;
 }
 
 main.two{
