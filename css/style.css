@@ -71,3 +71,38 @@ main.three{
 main.four{
   background: #f9ca24;
 }
+
+/*grid styls for cards*/
+.card-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 30vh;
+  grid-column-gap: 3em;
+  margin: 0 2em;
+}
+
+.card-info{
+  background-color: rgba(0,0,0,.2);
+  border-radius: 5px;
+  padding:1.5em;
+}
+
+.card-info h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+}
+
+/* mobile styles 500px or less do this stuff*/
+@media only screen and (max-width: 800px) {
+  .card-container{
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding-top: 1em;
+  }
+
+  .card-info{
+    height: 25vh;
+    margin: 3.25vh 0;
+  }
+}
