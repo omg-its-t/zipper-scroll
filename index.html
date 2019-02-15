@@ -11,6 +11,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/image-grid.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Zipper Scroll Site</title>
@@ -26,7 +27,6 @@
       </ul>
     </nav>
   </header>
-
   <section class="one" data-aos="fade-down-right" data-aos-delay="50" data-aos-duration="1000">
       <p class="primary">Welcome to the Zipper.</p>
       <p class="secondary">This zipper effect is provided by the <a href="http://michalsnik.github.io/aos/">AOS Library.</a></p>
@@ -54,9 +54,40 @@
       </div>
   </div>
   </section>
-  <section class="three" data-aos="fade-down-right" data-aos-delay="50" data-aos-duration="1000">section 3</section>
+
+  <section class="three" data-aos="fade-down-right" data-aos-delay="50" data-aos-duration="1000">
+    <section class="imageGrid noPadAddMargin">
+			<ul class="images clearfix">
+				<li>
+					<figure class="singlePhoto"><img src="images/grid-photo.jpeg" alt="image example 1"></figure>
+				</li>
+				<li>
+					<figure class="singlePhoto"><img src="images/grid-photo.jpeg" alt="image example 2"></figure>
+				</li>
+				<li>
+					<figure class="singlePhoto"><img src="images/grid-photo.jpeg" alt="image example 3"></figure>
+				</li>
+				<li>
+					<figure class="singlePhoto"><img src="images/grid-photo.jpeg" alt="image example 4"></figure>
+				</li>
+			</ul>
+			<ul class="images clearfix">
+				<li>
+					<figure class="singlePhoto"><img src="images/grid-photo.jpeg" alt="image example 5"></figure>
+				</li>
+				<li>
+					<figure class="singlePhoto"><img src="images/grid-photo.jpeg" alt="image example 6"></figure>
+				</li>
+				<li>
+					<figure class="singlePhoto"><img src="images/grid-photo.jpeg" alt="image example 7"></figure>
+				</li>
+				<li>
+					<figure class="singlePhoto"><img src="images/grid-photo.jpeg" alt="image example 8"></figure>
+				</li>
+			</ul>
+  </section>
+
   <section class="four" data-aos="fade-down-left" data-aos-delay="50" data-aos-duration="1000">section 4</section>
   </body>
-
   <script>AOS.init();</script>
 </html>

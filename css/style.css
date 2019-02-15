@@ -45,13 +45,13 @@ nav li a{
 
 section{
   width: 100%;
-  height: 100vh;
   overflow: hidden;
 }
 
 section.one{
   background: #6ab04c;
   text-align: center;
+  height: 100vh;
 }
 
 .one > p{
@@ -66,12 +66,9 @@ section.two{
   height: 75vh;
 }
 
-section.three{
-  background: #f0932b;
-}
-
 section.four{
   background: #f9ca24;
+  height: 50vh;
 }
 
 /*grid styls for cards*/
