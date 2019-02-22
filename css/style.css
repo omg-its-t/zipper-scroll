@@ -68,7 +68,6 @@ section.two{
 
 section.four{
   background: #f9ca24;
-  height: 50vh;
 }
 
 /*grid styls for cards*/
@@ -90,6 +89,12 @@ section.four{
   text-align: center;
   text-transform: uppercase;
   margin-bottom: .5em;
+}
+
+/* detail image styles */
+.circle{
+  border-radius: 50%;
+  height:100px;
 }
 
 /* mobile styles 500px or less do this stuff*/
